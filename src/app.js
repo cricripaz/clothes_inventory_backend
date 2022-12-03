@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 //ROutes
 
-app.get('/',(req,res) => {
+app.get('/get',(req,res) => {
     res.send({message: "hola v"})
 })
 
