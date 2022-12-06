@@ -32,10 +32,13 @@ const itemSchema = mongoose.Schema({
 });
 
 itemSchema.statics.addItem = addItem;
+itemSchema.statics.getAllItems = getAllItems;
 
 module.exports = mongoose.model('item',itemSchema,'items');
 
-
+function getAllItems(){
+    return this.find({});
+}
 function addItem (item_info){
 
     const newItem = {
