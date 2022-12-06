@@ -33,7 +33,7 @@ const itemSchema = mongoose.Schema({
 
 itemSchema.statics.addItem = addItem;
 
-module.exports = mongoose.model('item',itemSchema,'items')
+module.exports = mongoose.model('item',itemSchema,'items');
 
 
 function addItem (item_info){
