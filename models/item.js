@@ -33,7 +33,7 @@ const itemSchema = mongoose.Schema({
 
 itemSchema.statics.addItem = addItem;
 
-mongoose.model('Item',itemSchema,'items')
+mongoose.model('item',itemSchema,'items')
 
 
 function addItem (item_info){
