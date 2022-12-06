@@ -5,7 +5,7 @@ require('../models/item')
 
 
 function getModelByName(name){
-    return mongoose.models(name);
+    return mongoose.model(name);
 }
 
 
