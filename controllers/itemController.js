@@ -23,7 +23,7 @@ module.exports.getAllItems = function (req,res){
     try {
         Item.getAllItems(req.body)
             .then((items) =>{
-                res.status(200).send(items);
+                res.status(200).send({response:items});
             }).catch(error => res.status(200).send({success:false , message: error.message }))
     }catch (error){
         res.status(500).send({success:false , message: error.message });
