@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const _connect = require('./db/_connect');
 const itemsRoutes = require('./routes/itemRouter')
+const cors = require('cors')
 
 
 
@@ -11,7 +12,7 @@ _connect();
 
 const app = express();
 
-
+app.use(cors())
 app.use(bodyParser.json());
 
 
