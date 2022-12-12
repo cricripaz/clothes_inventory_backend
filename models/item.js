@@ -7,6 +7,14 @@ const itemSchema = mongoose.Schema({
         type:String,
         required: true
     },
+    brand:{
+        type:String,
+        required:true
+    },
+    gender:{
+        type:String,
+        required:true
+    },
     type : {
         type : String,
         required: true
@@ -19,12 +27,19 @@ const itemSchema = mongoose.Schema({
         type : Number,
         required : true
     },
-    entryDate : {
+    price_buy:{
+        type : Number,
+        required : true
+    },
+    price_sell:{
+        type : Number,
+        required : true
+    },
+    entry_date : {
         type : Date,
         required : true
-
     },
-    exitDate : {
+    exit_date : {
         type : Date,
         required : true
     }
@@ -44,11 +59,15 @@ function addItem (item_info){
     const newItem = {
 
         name:item_info.name,
+        brand:item_info.brand,
+        gender:item_info.gender,
         type:item_info.type,
         size:item_info.size,
         quantity:item_info.quantity,
-        entryDate: item_info.entryDate,
-        exitDate : item_info.exitDate,
+        price_buy:item_info.price_buy,
+        price_sell:item_info.price_sell,
+        entry_date: item_info.entry_date,
+        exit_date : item_info.exit_date,
 
     };
     return this.create(newItem);
