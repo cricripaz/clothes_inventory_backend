@@ -8,7 +8,7 @@ const optionSchema = mongoose.Schema({
         type:String,
         required: true
     }
-})
+});
 
 
 optionSchema.statics.addOptionType = addOptionType;

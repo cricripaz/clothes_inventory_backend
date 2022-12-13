@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
-require('../models/item')
+require('../models/item');
+require('../models/option');
+
 
 
 
