@@ -16,7 +16,7 @@ optionSchema.statics.getOptionsType = getOptionsType;
 
 
 
-module.exports = mongoose.model('option','options-type');
+module.exports = mongoose.model('option',optionSchema,'options-type');
 
 
 
