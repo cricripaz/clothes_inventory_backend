@@ -83,10 +83,10 @@ function addQuantity(item_info){
                 throw new Error("Item NOT FOUND");
             }
             else {
-                return this.updateOne( { name : item.name },
+                return this.updateOne( { name : item.name , size:item.size },
                     {$set:
                             {
-                                quantity : item.info.quantity
+                                quantity : 100
                             }
                     })
 
