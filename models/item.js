@@ -76,7 +76,7 @@ function addItem (item_info){
 }
 
 
-function addQuantity(item_info){
+function addQuantity(item_info , quantity_to_add){
     return this.findOne({ name:item_info.name , size: item_info.size }).then(
         item => {
             if(!item){
@@ -86,7 +86,7 @@ function addQuantity(item_info){
                 return this.updateOne( { name : item.name , size:item.size },
                     {$set:
                             {
-                                quantity : 100
+                                quantity : quantity_to_add
                             }
                     })
 
