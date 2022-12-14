@@ -48,6 +48,7 @@ const itemSchema = mongoose.Schema({
 
 itemSchema.statics.addItem = addItem;
 itemSchema.statics.getAllItems = getAllItems;
+itemSchema.statics.getItem = getItem;
 itemSchema.statics.addQuantity = addQuantity;
 
 module.exports = mongoose.model('item',itemSchema,'items');
@@ -55,6 +56,14 @@ module.exports = mongoose.model('item',itemSchema,'items');
 function getAllItems(){
     return this.find({});
 }
+
+function getItem(item_req){
+    return this.findOne({name:item_req.name , size: item_req.size});
+}
+
+
+
+
 function addItem (item_info){
 
     const newItem = {
