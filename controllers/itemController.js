@@ -30,3 +30,19 @@ module.exports.getAllItems = function (req,res){
     }
 
 }
+
+module.exports.addQuantity = function (req,res) {
+
+    const Item = getModelByName('item');
+
+    try {
+        Item.addQuantity(req.body)
+            .then(
+                data => {
+                    res.status(200).send({success:true , result : data });
+                }).catch(error => res.status(200).send({success:false , message: error.message }))
+    }catch (error){
+        res.status(500).send({success:false , message: error.message });
+    }
+
+}
