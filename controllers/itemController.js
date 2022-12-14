@@ -36,7 +36,7 @@ module.exports.addQuantity = function (req,res) {
     const Item = getModelByName('item');
 
     try {
-        Item.addQuantity(req.body)
+        Item.addQuantity(req.body,req.body.quantity)
             .then(
                 data => {
                     res.status(200).send({success:true , result : data });
