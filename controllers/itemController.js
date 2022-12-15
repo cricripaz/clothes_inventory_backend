@@ -63,7 +63,7 @@ module.exports.getQuantity = function (req,res){
     try {
         Item.getQuantity(req.body)
             .then((item) =>{
-                res.status(200).send(item.quantity);
+                res.status(200).send({quantity : item.quantity});
             }).catch(error => res.status(200).send({success:false , message: error.message }))
     }catch (error){
         res.status(500).send({success:false , message: error.message });
