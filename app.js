@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const _connect = require('./db/_connect');
 const itemsRoutes = require('./routes/itemRouter');
 const optionsRoutes = require('./routes/optionRouter');
+const brandRoutes = require('/routes/brandRouter');
 const cors = require('cors');
 
 
@@ -20,10 +21,12 @@ app.use(bodyParser.json());
 
 
 
-//ROutes
+//Routes
 
 app.use('/items', itemsRoutes);
 app.use('/options', optionsRoutes);
+app.use('/options-brand',brandRoutes);
+
 
 
 app.listen(process.env.PORT, () => console.log('server on port', process.env.PORT))
