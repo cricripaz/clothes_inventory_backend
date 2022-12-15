@@ -11,8 +11,8 @@ const sizeSchema = mongoose.Schema({
 });
 
 
-sizeSchema.statics.addOptionType = addOptionSize;
-sizeSchema.statics.getOptionsType = getOptionsSize;
+sizeSchema.statics.addOptionSize = addOptionSize;
+sizeSchema.statics.getOptionsSize = getOptionsSize;
 
 
 
