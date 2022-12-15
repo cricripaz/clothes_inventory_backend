@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const _connect = require('./db/_connect');
 const itemsRoutes = require('./routes/itemRouter');
 const optionsRoutes = require('./routes/optionRouter');
-const brandRoutes = require('/routes/brandRouter');
+const brandRoutes = require('./routes/brandRouter');
 
 const cors = require('cors');
 
@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 app.use('/items', itemsRoutes);
 app.use('/options', optionsRoutes);
-app.use('/optionsBrand', brandRoutes);
+app.use('/options-brand', brandRoutes);
 
 
 
