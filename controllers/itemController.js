@@ -43,8 +43,20 @@ module.exports.getItem = function (req,res){
     }catch (error){
         res.status(500).send({success:false , message: error.message });
     }
-
 }
+module.exports.getItemByName = function (req,res){
+    const Item = getModelByName('item');
+
+    try {
+        Item.getItemByName(req.body)
+            .then((item) =>{
+                res.status(200).send(item);
+            }).catch(error => res.status(200).send({success:false , message: error.message }))
+    }catch (error){
+        res.status(500).send({success:false , message: error.message });
+    }
+}
+
 
 module.exports.addQuantity = function (req,res) {
 
