@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 
 app.use('/items', itemsRoutes);
 app.use('/options', optionsRoutes);
-app.use('/options-brand',brandRoutes);
+app.use('/options-brand', brandRoutes);
 
 
 
