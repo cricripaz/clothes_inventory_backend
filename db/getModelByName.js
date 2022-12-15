@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 require('../models/item');
 require('../models/option');
-
+require('../models/brand');
 
 
 
