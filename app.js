@@ -4,6 +4,7 @@ const _connect = require('./db/_connect');
 const itemsRoutes = require('./routes/itemRouter');
 const optionsRoutes = require('./routes/optionRouter');
 const brandRoutes = require('./routes/brandRouter');
+const sizeRoutes = require('./routes/sizeRouter');
 
 const cors = require('cors');
 
@@ -27,6 +28,7 @@ app.use(bodyParser.json());
 app.use('/items', itemsRoutes);
 app.use('/options', optionsRoutes);
 app.use('/options-brand', brandRoutes);
+app.use('/options-size', sizeRoutes);
 
 
 
