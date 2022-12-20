@@ -51,7 +51,9 @@ itemSchema.statics.getAllItems = getAllItems;
 itemSchema.statics.getItem = getItem;
 itemSchema.statics.addQuantity = addQuantity;
 itemSchema.statics.getItemByName = getItemByName;
+itemSchema.statics.getItemByNameType = getItemByNameType;
 itemSchema.statics.getQuantity = getQuantity;
+itemSchema.statics.getQuantityForSale = getQuantityForSale;
 
 module.exports = mongoose.model('item',itemSchema,'items');
 
@@ -67,10 +69,15 @@ function getItemByName(item_req){
     return this.find({name: item_req.name})
 }
 
+function getItemByNameType(item_req){
+    return this.find({name: item_req.name , type:item_req.type})
+}
 function getQuantity(item_req){
     return this.findOne({name:item_req.name , size: item_req.size})
 }
-
+function getQuantityForSale(item_req){
+    return this.findOne({name:item_req.name ,type:item_req.type, size: item_req.size})
+}
 
 
 
