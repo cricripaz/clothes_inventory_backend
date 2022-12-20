@@ -38,6 +38,10 @@ const productSoldSchema = mongoose.Schema({
     sale_amount:{
         type : Number
     },
+    sale_quantity:{
+        type :Number,
+        required : true
+    },
     entry_date : {
         type : Date,
         required : true
@@ -55,7 +59,7 @@ productSoldSchema.statics.addProductSold = addProductSold;
 module.exports = mongoose.model('product-sold', productSoldSchema ,'products-sold');
 
 
-function addProductSold (item_info,quantity){
+function addProductSold (item_info){
 
     const newProductSold = {
 
@@ -68,6 +72,7 @@ function addProductSold (item_info,quantity){
         price_buy:item_info.price_buy,
         price_sell:item_info.price_sell,
         sale_amount:item_info.sale_amount,
+        sale_quantity : item_info.sale_quantity,
         entry_date: item_info.entry_date,
         exit_date : item_info.exit_date,
 
