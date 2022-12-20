@@ -15,3 +15,17 @@ module.exports.addProductSold = function (req,res) {
     }
 
 }
+
+module.exports.getAll = function (req,res){
+    const Item = getModelByName('item');
+
+    try {
+        Item.getAll(req.body)
+            .then((items) =>{
+                res.status(200).send(items);
+            }).catch(error => res.status(200).send({success:false , message: error.message }))
+    }catch (error){
+        res.status(500).send({success:false , message: error.message });
+    }
+
+}
