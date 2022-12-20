@@ -125,3 +125,19 @@ module.exports.addQuantity = function (req,res) {
     }
 
 }
+
+module.exports.sellProduct = function (req,res) {
+
+    const Item = getModelByName('item');
+
+    try {
+        Item.sellProduct(req.body,req.body.quantity_sell)
+            .then(
+                data => {
+                    res.status(200).send({success:true , result : data });
+                }).catch(error => res.status(200).send({success:false , message: error.message }))
+    }catch (error){
+        res.status(500).send({success:false , message: error.message });
+    }
+
+}

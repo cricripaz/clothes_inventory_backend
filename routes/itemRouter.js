@@ -13,6 +13,7 @@ router.post('/get-item-by-name-type-size',itemController.getItemByNameTypeSize);
 router.post('/getQuantity',itemController.getQuantity);
 router.post('/get-quantity-for-sale',itemController.getQuantityForSale);
 router.put('/addQuantityProduct',itemController.addQuantity);
+router.put('/sell-product',itemController.sellProduct);
 
 
 module.exports = router;

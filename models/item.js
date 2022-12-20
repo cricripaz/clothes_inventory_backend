@@ -49,6 +49,7 @@ itemSchema.statics.addItem = addItem;
 itemSchema.statics.getAllItems = getAllItems;
 itemSchema.statics.getItem = getItem;
 itemSchema.statics.addQuantity = addQuantity;
+itemSchema.statics.sellProduct = sellProduct;
 itemSchema.statics.getItemByName = getItemByName;
 itemSchema.statics.getItemByNameType = getItemByNameType;
 itemSchema.statics.getItemByNameTypeSize = getItemByNameTypeSize;
@@ -115,6 +116,26 @@ function addQuantity(item_info , quantity_to_add){
             }
             else {
                 return this.updateOne( { name : item.name , size:item.size },
+                    {$set:
+                            {
+                                quantity : quantity_to_add
+                            }
+                    })
+
+            }
+        }
+    ).then(item => item)
+}
+
+
+function sellProduct(item_info , quantity_to_add){
+    return this.findOne({ name:item_info.name , size: item_info.size }).then(
+        item => {
+            if(!item){
+                throw new Error("Item NOT FOUND");
+            }
+            else {
+                return this.updateOne( { name : item.name , type:item.type,size:item.size},
                     {$set:
                             {
                                 quantity : quantity_to_add
