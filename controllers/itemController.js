@@ -70,6 +70,19 @@ module.exports.getItemByNameType = function (req,res){
     }
 }
 
+module.exports.getItemByNameTypeSize = function (req,res){
+    const Item = getModelByName('item');
+
+    try {
+        Item.getItemByNameTypeSize(req.body)
+            .then((item) =>{
+                res.status(200).send(item);
+            }).catch(error => res.status(200).send({success:false , message: error.message }))
+    }catch (error){
+        res.status(500).send({success:false , message: error.message });
+    }
+}
+
 module.exports.getQuantity = function (req,res){
     const Item = getModelByName('item');
 
