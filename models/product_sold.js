@@ -67,7 +67,7 @@ function addProductSold (item_info,quantity){
         quantity:item_info.quantity,
         price_buy:item_info.price_buy,
         price_sell:item_info.price_sell,
-        sale_amount:(quantity * item_info.price_sell),
+        sale_amount:item_info.sale_amount,
         entry_date: item_info.entry_date,
         exit_date : item_info.exit_date,
 
