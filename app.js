@@ -5,6 +5,7 @@ const itemsRoutes = require('./routes/itemRouter');
 const optionsRoutes = require('./routes/optionRouter');
 const brandRoutes = require('./routes/brandRouter');
 const sizeRoutes = require('./routes/sizeRouter');
+const productSoldRoutes = require('./routes/productSoldRouter');
 
 const cors = require('cors');
 
@@ -26,6 +27,7 @@ app.use(bodyParser.json());
 //Routes
 
 app.use('/items', itemsRoutes);
+app.use('/products',productSoldRoutes);
 app.use('/options', optionsRoutes);
 app.use('/options-brand', brandRoutes);
 app.use('/options-size', sizeRoutes);

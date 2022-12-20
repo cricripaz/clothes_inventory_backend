@@ -4,6 +4,9 @@ require('../models/item');
 require('../models/option');
 require('../models/brand');
 require('../models/size');
+require('../models/product_sold');
+
+
 
 
 

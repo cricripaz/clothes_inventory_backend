@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const e = require("express");
 
 const itemSchema = mongoose.Schema({
-
     name : {
         type:String,
         required: true
