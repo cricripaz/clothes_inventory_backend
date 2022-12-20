@@ -36,8 +36,7 @@ const productSoldSchema = mongoose.Schema({
         required : true
     },
     sale_amount:{
-        type : Number,
-        required : true
+        type : Number
     },
     entry_date : {
         type : Date,
