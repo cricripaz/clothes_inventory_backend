@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const e = require("express");
-const {addSellProduct} = require("../controllers/productSoldController");
 
 const productSoldSchema = mongoose.Schema({
 
@@ -54,6 +53,9 @@ const productSoldSchema = mongoose.Schema({
 productSoldSchema.statics.addProductSold = addProductSold;
 
 
+module.exports = mongoose.model('product-sold', productSoldSchema ,'products-sold');
+
+
 function addProductSold (item_info,quantity){
 
     const newProductSold = {
@@ -76,4 +78,3 @@ function addProductSold (item_info,quantity){
 }
 
 
-module.exports = mongoose.model('product-sold', productSoldSchema ,'products-sold');
