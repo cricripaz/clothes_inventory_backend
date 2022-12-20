@@ -54,14 +54,14 @@ const productSoldSchema = mongoose.Schema({
 });
 
 productSoldSchema.statics.addProductSold = addProductSold;
-productSoldSchema.statics.getAll = getAll;
+productSoldSchema.statics.getAllProducts = getAllProducts;
 
 
 module.exports = mongoose.model('product-sold', productSoldSchema ,'products-sold');
 
 
 
-function getAll (){
+function getAllProducts (){
     return this.find({})
 }
 function addProductSold (item_info){
