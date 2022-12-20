@@ -17,10 +17,10 @@ module.exports.addProductSold = function (req,res) {
 }
 
 module.exports.getAllProducts = function (req,res){
-    const Item = getModelByName('item');
+    const ProductSold = getModelByName('product-sold');
 
     try {
-        Item.getAllProducts(req.body)
+        ProductSold.getAllProducts(req.body)
             .then((items) =>{
                 res.status(200).send(items);
             }).catch(error => res.status(200).send({success:false , message: error.message }))
