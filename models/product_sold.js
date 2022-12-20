@@ -51,7 +51,7 @@ const productSoldSchema = mongoose.Schema({
 
 });
 
-productSoldSchema.statics.addSellProduct = addProductSold;
+productSoldSchema.statics.addProductSold = addProductSold;
 
 
 function addProductSold (item_info,quantity){
