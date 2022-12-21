@@ -31,6 +31,23 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 * **Criterio de aceptación:** Al hacer click en el boton agregar nos Mostrara una alerta la cual nos indica que fue agregado con exito
 
 
+### **Historia de usuario 2**
+
+* **Título:**  Observar Items en Tabla
+
+* **Descripción:** En la parte izquierda de la pagina principal barra de navegacion donde seleccionamos ver Items donde nos redirecciona a la pagina donde estan los items en forma de tabla
+
+* **Criterio de aceptación:** Al ingresar a la parte de view-items se muestran todos los elementos de la base de datos en forma de tabla
+
+### **Historia de usuario 3**
+
+* **Título:**  Aplicacion Web con vista de ordenador y para mobile
+
+* **Descripción:** En la parte izquierda de la pagina principal barra de navegacion donde seleccionamos ver Items donde nos redirecciona a la pagina donde estan los items en forma de tabla
+
+* **Criterio de aceptación:** Al ingresar a la parte de view-items se muestran todos los elementos de la base de datos en forma de tabla
+
+
 ## **Requerimientos De Instalacion** :
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 * Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
