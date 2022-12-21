@@ -165,3 +165,28 @@ Seleccionar la Opcion Deploy Now  y **LISTO**
 
 
 ## DEPLOY FRONTEND 
+
+
+## **METODO 1**
+
+- Clonar el repositorio de [Clothes Inventory - Frontend](https://github.com/cricripaz/clothes_inventory_frontend) 
+
+- Abrir el Archivo Index.html 
+
+- Comenzar la Navegacion
+
+## **METODO 2**
+
+- Instalar y configurar Servidor Apache en Linux → [LINK](https://github.com/cricripaz/clothes_inventory_frontend)
+
+- Buscar el Directorio 
+```
+/home/$USER/public_html
+```
+
+- Subir toda la carpeta clonada al directorio /public_html 
+
+
+
+
+
