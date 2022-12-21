@@ -140,6 +140,8 @@ Seleccionar la Opcion Deploy Now  y **LISTO**
 - **GET** →  /products/get-all → Obtiene Todos los productos vendidos 
 - **POST** →  /products/products-sold → Crea un producto vendido
 - **POST** →  /items/get-item-by-name-type-size → Obtiene un producto mediante una busqueda por los parametros { name,type,size }
+- **PUT** →  /items/sell-product → actualiza la cantidad de productos cuando un producto es vendido { name,type,size }
+- 
 
 ## Opciones-Items
 
@@ -149,7 +151,15 @@ Seleccionar la Opcion Deploy Now  y **LISTO**
 - **GET** →  /options-brand/optionsBrand → Obtiene Todas opciones de marca de ropa 
 - **POST** →  /options/addOptionBrand → Crea una opcion de marca de ropa
 
+- **GET** →  /options-size/optionsSize → Obtiene Todas opciones de Talla de ropa 
+- **POST** →  /options-size/addOptionSize → Crea una opcion de Talla de ropa
+
+
 ## Items
+
+- **GET** →  /items/getAll → Obtiene Todos los Items en la coleccion 
+- **POST** →  /items/addItem → Crea un nuevo Item 
+- **PUT** →  /items/addQuantityProduct → Actualiza el parametro {quantity} de un item params : (name , size )
 
 
 
