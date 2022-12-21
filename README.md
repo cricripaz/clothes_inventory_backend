@@ -26,6 +26,20 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 * Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
 
+## **Instalacion** :
+
+Descargar proyecto del en tu directorio local :
+```
+git clone https://github.com/cricripaz/clothes_inventory_backend.git
+```
+Abrir el proyecto con tu IDE favorito :
+* WebStorm → Recomendado [Link](https://www.jetbrains.com/es-es/webstorm/)
+* Atom 
+* Visual Studio Code
+
+
+
+
 
 
 ## We lost 54k GitHub stars
