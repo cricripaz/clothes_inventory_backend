@@ -17,6 +17,14 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 
 </div>
 
+## **Tecnologia Implementada**
+- JavasCript
+- Bootstrap
+- NodeJs
+- MongoDB
+- CSS
+
+
 ## **Funcionalidades**
 
 
