@@ -12,7 +12,7 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/httpie/httpie/master/docs/httpie-animation.gif" alt="HTTPie in action" width="100%"/>
+![Captura de pantalla 2022-12-21 a la(s) 8 52 34 a m](https://user-images.githubusercontent.com/49013118/208909833-19f09614-1095-4138-a2d0-b93efa927fb9.png)
 
 
 </div>
