@@ -43,10 +43,18 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 
 * **Título:**  Aplicacion Web con vista de ordenador y para mobile
 
-* **Descripción:** En la parte izquierda de la pagina principal barra de navegacion donde seleccionamos ver Items donde nos redirecciona a la pagina donde estan los items en forma de tabla
+* **Descripción:** Sitio web responsive donde dependiendo el tamaño de pantalla se adaptan los diferentes elementos 
 
-* **Criterio de aceptación:** Al ingresar a la parte de view-items se muestran todos los elementos de la base de datos en forma de tabla
+* **Criterio de aceptación:** Al ingresar de un mobile u ordenador esta pagina cambia de tamaño
 
+
+### **Historia de usuario 4**
+
+* **Título:**  Generar Reportes De Ventas Por Mes
+
+* **Descripción:** Sitio web responsive donde dependiendo el tamaño de pantalla se adaptan los diferentes elementos 
+
+* **Criterio de aceptación:** Al ingresar de un mobile u ordenador esta pagina cambia de tamaño
 
 ## **Requerimientos De Instalacion** :
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
