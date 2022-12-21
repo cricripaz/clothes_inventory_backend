@@ -37,6 +37,14 @@ Abrir el proyecto con tu IDE favorito :
 * Atom 
 * Visual Studio Code
 
+Agregar `.env` configuracion de la conexion de base de datos y el puerto en el que se ejecutara :
+```
+MONGODB_URL= TU_PROPIO_LINK.com
+PORT = 3000 → Puede usar tu puerto de preferencia
+```
+
+<img width="336" alt="Captura de pantalla 2022-12-20 a la(s) 10 17 07 p m" src="https://user-images.githubusercontent.com/49013118/208804766-3897436a-8ac6-4915-a515-9d74e4d392cd.png">
+
 
 
 
