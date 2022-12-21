@@ -55,7 +55,7 @@ itemSchema.statics.getItemByNameType = getItemByNameType;
 itemSchema.statics.getItemByNameTypeSize = getItemByNameTypeSize;
 itemSchema.statics.getQuantity = getQuantity;
 itemSchema.statics.getQuantityForSale = getQuantityForSale;
-
+itemSchema.statics.deleteItem = deleteItem;
 
 module.exports = mongoose.model('item',itemSchema,'items');
 
@@ -145,4 +145,24 @@ function sellProduct(item_info , quantity_to_add){
             }
         }
     ).then(item => item)
+}
+
+
+function deleteItem(item_info){
+    return this.findById(item_info.id)
+        .then(
+            item => {
+
+                if (!item) {
+                    throw  new Error("PRODUCT ID NOT FOUND");
+
+                }else {
+
+                    return this.findByIdAndDelete(item_info.id)
+
+                }
+
+
+            })
+        .then(item => item)
 }

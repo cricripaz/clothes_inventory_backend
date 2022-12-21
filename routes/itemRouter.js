@@ -14,6 +14,7 @@ router.post('/getQuantity',itemController.getQuantity);
 router.post('/get-quantity-for-sale',itemController.getQuantityForSale);
 router.put('/addQuantityProduct',itemController.addQuantity);
 router.put('/sell-product',itemController.sellProduct);
+router.delete('/deleteItem', itemController.deleteItem);
 
 
 module.exports = router;

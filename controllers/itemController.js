@@ -141,3 +141,18 @@ module.exports.sellProduct = function (req,res) {
     }
 
 }
+
+module.exports.deleteItem = function (req,res) {
+
+    const Item = getModelByName('item');
+
+    try {
+        Item.deleteItem(req.body)
+            .then((articles) =>{
+                res.status(200).send({success:true , message: "removed Item" });
+            }).catch(error => res.status(200).send({success:false , message: error.message }))
+    }catch (error){
+        res.status(500).send({success:false , message: error.message });
+    }
+
+}
