@@ -6,31 +6,9 @@
     Clothes Inventory - Practica Interna 2022
 </h2>
 
-<div align="center">
+## **Objetivo**
+Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web para control de inventario y venta de prendas de vestir
 
-[![HTTPie for Desktop](https://img.shields.io/static/v1?label=HTTPie&message=for%20Desktop&color=4B78E6)](https://httpie.io/product)
-[![](https://img.shields.io/static/v1?label=HTTPie&message=for%20Web%20%26%20Mobile&color=73DC8C)](https://httpie.io/app)
-[![](https://img.shields.io/static/v1?label=HTTPie&message=for%20Terminal&color=FA9BFA)](https://httpie.io/cli)
-[![Twitter](https://img.shields.io/twitter/follow/httpie?style=flat&color=%234B78E6&logoColor=%234B78E6)](https://twitter.com/httpie)
-[![Chat](https://img.shields.io/discord/725351238698270761?style=flat&label=Chat%20on%20Discord&color=%23FA9BFA)](https://httpie.io/discord)
-
-</div>
-
-
-<div align="center">
-
-[![Docs](https://img.shields.io/badge/stable%20docs-httpie.io%2Fdocs%2Fcli-brightgreen?style=flat&color=%2373DC8C&label=Docs)](https://httpie.org/docs/cli)
-[![Latest version](https://img.shields.io/pypi/v/httpie.svg?style=flat&label=Latest&color=%234B78E6&logo=&logoColor=white)](https://pypi.python.org/pypi/httpie)
-[![Build](https://img.shields.io/github/workflow/status/httpie/httpie/Build?color=%23FA9BFA&label=Build)](https://github.com/httpie/httpie/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/httpie/httpie?style=flat&label=Coverage&color=%2373DC8C)](https://codecov.io/gh/httpie/httpie)
-
-</div>
-
-HTTPie (pronounced _aitch-tee-tee-pie_) is a command-line HTTP client.
-Its goal is to make CLI interaction with web services as human-friendly as possible.
-HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
-The `http` & `https` commands allow for creating and sending arbitrary HTTP requests.
-They use simple and natural syntax and provide formatted and colorized output.
 
 <div align="center">
 
@@ -39,8 +17,10 @@ They use simple and natural syntax and provide formatted and colorized output.
 
 </div>
 
+## **Funcionalidades**
 
 
+## **Requerimientos**
 
 ## We lost 54k GitHub stars
 
