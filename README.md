@@ -133,31 +133,26 @@ Seleccionar la Opcion Deploy Now  y **LISTO**
 
 
 
-## We lost 54k GitHub stars
+## Servicios HTTP 
 
-Please note we recently accidentally made this repo private for a moment, and GitHub deleted our community that took a decade to build. Read the full story here: https://httpie.io/blog/stardust
+## Productos
+- Ejemplo → https://clothesinventory.up.railway.app/products/get-all
+- **GET** →  /products/get-all → Obtiene Todos los productos vendidos 
+- **POST** →  /products/products-sold → Crea un producto vendido
+- **POST** →  /items/get-item-by-name-type-size → Obtiene un producto mediante una busqueda por los parametros { name,type,size }
 
-![](docs/stardust.png)
+## Opciones-Items
+
+- **GET** →  options/optionsType → Obtiene Todas opciones del tipo de ropa 
+- **POST** →  options/addOptionType → Crea una opcion de tipo de ropa
+
+- **GET** →  /options-brand/optionsBrand → Obtiene Todas opciones de marca de ropa 
+- **POST** →  /options/addOptionBrand → Crea una opcion de marca de ropa
+
+## Items
 
 
-## Getting started
 
-- [Installation instructions →](https://httpie.io/docs#installation)
-- [Full documentation →](https://httpie.io/docs)
-
-## Features
-
-- Expressive and intuitive syntax
-- Formatted and colorized terminal output
-- Built-in JSON support
-- Forms and file uploads
-- HTTPS, proxies, and authentication
-- Arbitrary request data
-- Custom headers
-- Persistent sessions
-- `wget`-like downloads
-
-[See all features →](https://httpie.io/docs)
 
 ## Examples
 
