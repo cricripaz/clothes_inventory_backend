@@ -22,6 +22,12 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 
 ## **Requerimientos**
 
+## **Requerimientos De Instalacion** :
+* Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+* Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
+
+
+
 ## We lost 54k GitHub stars
 
 Please note we recently accidentally made this repo private for a moment, and GitHub deleted our community that took a decade to build. Read the full story here: https://httpie.io/blog/stardust
