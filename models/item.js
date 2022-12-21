@@ -149,7 +149,7 @@ function sellProduct(item_info , quantity_to_add){
 
 
 function deleteItem(item_info){
-    return this.findById(item_info.id)
+    return this.findOne({name:item_info.name ,type:item_info.type, size: item_info.size})
         .then(
             item => {
 
