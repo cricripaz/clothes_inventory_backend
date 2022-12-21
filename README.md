@@ -18,7 +18,7 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 </div>
 
 ## **Tecnologia Implementada**
-- JavasCript.      <img height="30" src="https://user-images.githubusercontent.com/49013118/208923382-34020c4f-d06c-4427-bdb3-db0f2dafe8c1.png" />
+- JavasCript
 - Bootstrap
 - NodeJs
 - MongoDB
