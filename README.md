@@ -42,8 +42,46 @@ Agregar `.env` configuracion de la conexion de base de datos y el puerto en el q
 MONGODB_URL= TU_PROPIO_LINK.com
 PORT = 3000 → Puede usar tu puerto de preferencia
 ```
-
+<div align="center">
 <img width="336" alt="Captura de pantalla 2022-12-20 a la(s) 10 17 07 p m" src="https://user-images.githubusercontent.com/49013118/208804766-3897436a-8ac6-4915-a515-9d74e4d392cd.png">
+</div>
+
+<p></p>
+
+Una vez configurado el archivo .env entonces existen 2 formas de ejecutarlo de manera local :
+
+## **Comandos** 
+
+**Paso 1 Instalar librerias**
+```
+npm install express
+npm install mongoose
+npm install cors
+npm install body-parser
+```
+**Paso 2 Ejecutar el proyecto**
+```
+npm start
+```
+   O
+
+```
+node app.js
+```
+
+Entonces una vez ejecutado los comando tendremos acontinuacion la siguiente imagen donde nos muestra un mensaje de de MONGODB CLOUD CONNECTED 
+
+<div align="center"> 
+
+<img width="802" alt="Captura de pantalla 2022-12-20 a la(s) 10 30 23 p m" src="https://user-images.githubusercontent.com/49013118/208806476-2f6b567f-f327-401b-afa0-a3f54ca91ade.png">
+</div>
+
+Despues podremos ejecutar todas las peticiones HTTP al siguiente link :
+
+```
+http://127.0.0.1:3000/[paths](s.com) 
+```
+
 
 
 
