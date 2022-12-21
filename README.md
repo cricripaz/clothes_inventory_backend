@@ -67,6 +67,8 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 * Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
 
+## DEPLOY BACKEND 
+
 ## **Instalacion** :
 
 Descargar proyecto del en tu directorio local :
