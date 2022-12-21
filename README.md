@@ -60,9 +60,9 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 
 * **Título:**  Pagina Sin Acceso de Login
 
-* **Descripción:** Una seccion dentro de la pagina web para poder observar que productos se vendieron en un mes y en que cantidad 
+* **Descripción:** Una pagina web para poder administar un inventario de ropa donde no exista un login para poder acceder
 
-* **Criterio de aceptación:** Al ingresar a la pagina principal existe un boton **Generar Reporte**
+* **Criterio de aceptación:** Al ingresar a la pagina principal nos manda directo a un dashboard ademas podemos acceder a todas las funcionalidades sin credenciales
 ## **Requerimientos De Instalacion** :
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 * Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
