@@ -164,46 +164,4 @@ Seleccionar la Opcion Deploy Now  y **LISTO**
 
 
 
-## Examples
-
-Hello World:
-
-
-```bash
-https httpie.io/hello
-```
-
-Custom [HTTP method](https://httpie.io/docs#http-method), [HTTP headers](https://httpie.io/docs#http-headers) and [JSON](https://httpie.io/docs#json) data:
-
-```bash
-http PUT pie.dev/put X-API-Token:123 name=John
-```
-
-Build and print a request without sending it using [offline mode](https://httpie.io/docs#offline-mode):
-
-```bash
-http --offline pie.dev/post hello=offline
-```
-
-Use [GitHub API](https://developer.github.com/v3/issues/comments/#create-a-comment) to post a comment on an [Issue](https://github.com/httpie/httpie/issues/83) with [authentication](https://httpie.io/docs#authentication):
-
-```bash
-http -a USERNAME POST https://api.github.com/repos/httpie/httpie/issues/83/comments body='HTTPie is awesome! :heart:'
-```
-
-[See more examples →](https://httpie.io/docs#examples)
-
-## Community & support
-
-- Visit the [HTTPie website](https://httpie.io) for full documentation and useful links.
-- Join our [Discord server](https://httpie.io/discord) is to ask questions, discuss features, and for general API chat.
-- Tweet at [@httpie](https://twitter.com/httpie) on Twitter.
-- Use [StackOverflow](https://stackoverflow.com/questions/tagged/httpie) to ask questions and include a `httpie` tag.
-- Create [GitHub Issues](https://github.com/httpie/httpie/issues) for bug reports and feature requests.
-- Subscribe to the [HTTPie newsletter](https://httpie.io) for occasional updates.
-
-## Contributing
-
-Have a look through existing [Issues](https://github.com/httpie/httpie/issues) and [Pull Requests](https://github.com/httpie/httpie/pulls) that you could help with. If you'd like to request a feature or report a bug, please [create a GitHub Issue](https://github.com/httpie/httpie/issues) using one of the templates provided.
-
-[See contribution guide →](https://github.com/httpie/httpie/blob/master/CONTRIBUTING.md)
+## DEPLOY FRONTEND 
