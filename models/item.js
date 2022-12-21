@@ -158,7 +158,7 @@ function deleteItem(item_info){
 
                 }else {
 
-                    return this.findByIdAndDelete(item_info.id)
+                    return this.findOneAndDelete({name:item_info.name ,type:item_info.type, size: item_info.size})
 
                 }
 
