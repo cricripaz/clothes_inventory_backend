@@ -63,11 +63,15 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 * **Descripción:** Una pagina web para poder administar un inventario de ropa donde no exista un login para poder acceder
 
 * **Criterio de aceptación:** Al ingresar a la pagina principal nos manda directo a un dashboard ademas podemos acceder a todas las funcionalidades sin credenciales
+
+
+## DEPLOY BACKEND 
+
 ## **Requerimientos De Instalacion** :
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 * Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
 
-## DEPLOY BACKEND 
+
 
 ## **Instalacion** :
 
