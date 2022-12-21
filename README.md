@@ -22,6 +22,15 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 
 ## **Requerimientos**
 
+### **Historia de usuario 1**
+
+* **Título:**  Registro de Productos En Una Base de Datos 
+
+* **Descripción:** En la parte izquierda de la pagina principal existe una opcion la cual permite agregar productos segun su nombre tipo y talla
+
+* **Criterio de aceptación:** Al hacer click en el boton agregar nos Mostrara una alerta la cual nos indica que fue agregado con exito
+
+
 ## **Requerimientos De Instalacion** :
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 * Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
