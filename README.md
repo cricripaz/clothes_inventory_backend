@@ -48,7 +48,9 @@ PORT = 3000 → Puede usar tu puerto de preferencia
 
 <p></p>
 
-Una vez configurado el archivo .env entonces existen 2 formas de ejecutarlo de manera local :
+Una vez configurado el archivo .env entonces existen 2 formas de ejecutarlo de manera local o En RAILWAYS  :
+
+## **METODO 1**
 
 ## **Comandos** 
 
@@ -83,8 +85,51 @@ http://127.0.0.1:3000/[paths](s.com)
 ```
 
 
+## **METODO 2**
+
+**Paso 1**
+Ingresar a https://railway.app/ 
 
 
+**Paso 2**
+Iniciar sesion 
+
+
+**Paso 3**
+Hacer Click en Start A New Project
+
+<div align="center">
+<img width="921" alt="Captura de pantalla 2022-12-20 a la(s) 10 55 06 p m" src="https://user-images.githubusercontent.com/49013118/208809778-009008a5-6915-4de7-a09b-6e7a63b687bc.png">
+</div>
+
+
+
+**Paso 4**
+
+Seleccionar la opcion apartir de un repositorio de GitHub
+
+<div align="center">
+<img width="608" alt="Captura de pantalla 2022-12-20 a la(s) 10 57 07 p m" src="https://user-images.githubusercontent.com/49013118/208810050-d7bbb9a1-f4a4-475d-bd0a-ccfee961c80e.png">
+
+</div>
+
+**Paso 5**
+
+Seleccionar una repo donde vayamos a subir el codigo clonado 
+
+
+<div align="center">
+<img width="611" alt="Captura de pantalla 2022-12-20 a la(s) 10 59 20 p m" src="https://user-images.githubusercontent.com/49013118/208810316-6e92e8e4-ce6a-4655-affd-3b956bf1cab1.png">
+</div>
+
+
+**Paso 6**
+
+Seleccionar la Opcion Deploy Now  y **LISTO**
+
+<div align="center">
+<img width="656" alt="Captura de pantalla 2022-12-20 a la(s) 11 01 26 p m" src="https://user-images.githubusercontent.com/49013118/208810597-e231e49e-aa80-44da-b866-f42b818f8577.png">
+</div>
 
 
 
@@ -117,6 +162,7 @@ Please note we recently accidentally made this repo private for a moment, and Gi
 ## Examples
 
 Hello World:
+
 
 ```bash
 https httpie.io/hello
