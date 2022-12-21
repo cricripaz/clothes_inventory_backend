@@ -52,10 +52,17 @@ Este Repositorio contiene el codigo de fuente de desarrollo de un sistema web pa
 
 * **Título:**  Generar Reportes De Ventas Por Mes
 
-* **Descripción:** Sitio web responsive donde dependiendo el tamaño de pantalla se adaptan los diferentes elementos 
+* **Descripción:** Una seccion dentro de la pagina web para poder observar que productos se vendieron en un mes y en que cantidad 
 
-* **Criterio de aceptación:** Al ingresar de un mobile u ordenador esta pagina cambia de tamaño
+* **Criterio de aceptación:** Al ingresar a la pagina principal existe un boton **Generar Reporte**
 
+### **Historia de usuario 5**
+
+* **Título:**  Pagina Sin Acceso de Login
+
+* **Descripción:** Una seccion dentro de la pagina web para poder observar que productos se vendieron en un mes y en que cantidad 
+
+* **Criterio de aceptación:** Al ingresar a la pagina principal existe un boton **Generar Reporte**
 ## **Requerimientos De Instalacion** :
 * Cuenta En [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 * Cuenta Railways Asociada Con Github → [Pasos](https://docs.railway.app/getting-started)
